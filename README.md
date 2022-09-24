@@ -7,4 +7,16 @@ All code was developed for use in Matlab
 Contents: 
 
 1. sir.m :
-2. pso.m
+Sir model and its improved code can be changed according to the specified equation.
+Dependencies:  None.
+
+
+2. fun.m :
+To judge the fitting degree of parameters, the least square method is used as the evaluation standard.
+Dependencies:  None.
+
+
+3. pso.m :
+Parameter fitting using pso algorithm.
+Dependencies:  sir.m   fun.m
+
